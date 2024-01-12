@@ -1,7 +1,8 @@
-import math
-ang = float(input('Digite um angulo:'))
-cos = math.cos(ang)
-sen = math.sin(ang)
-tan = math.tan(ang)
+from math import radians, cos, sin, tan
 
-print(f'cosseno e {cos}, o seno e {sen}, a tangente e {tan}')
+ang = float(input('Digite um angulo:'))
+cos = cos(radians(ang))
+sen = sin(radians(ang))
+tan = tan(radians(ang))
+
+print(f'cosseno e {cos:.2f}, o seno e {sen:.2f}, a tangente e {tan:.2f}')
