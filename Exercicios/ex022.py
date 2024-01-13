@@ -1,0 +1,6 @@
+frase = input("Digite o seu nome: ")
+print("Onome todo em maiusculo fica:", frase.upper())
+print("O nome todo em minusculo fica:", frase.lower())
+print("Caracteres sem contar os espacos e:", len(frase.replace(" ", "")))
+dividido = frase.split()
+print("O primeiro nome tem", len(dividido[0]), "letras")
