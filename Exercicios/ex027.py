@@ -1,8 +1,7 @@
-nome = input("Digite o nome completo:")
+nome = input("Digite o nome completo:").strip().split()
 
-nome_split = nome.split()
-primeironome = nome_split[0]
-ultimonome = nome_split[-1]
+primeironome = nome[0]
+ultimonome = nome[-1]
 
 print("O primeiro nome e:", primeironome)
 print("O ultimo nome e:", ultimonome)
