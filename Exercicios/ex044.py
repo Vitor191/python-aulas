@@ -17,4 +17,6 @@ elif a == 4:
     b = int(input("Digite quantas parcelas:"))
     parcela = (valor * 1.20) / b
     print(f"O valor a ser pago sera {b}x{parcela:.2f}")
+else:
+    print("Nao existe essa forma de pagamento")
 print("Tenha um bom dia!")
