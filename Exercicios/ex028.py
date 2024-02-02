@@ -7,7 +7,7 @@ print("-=-" * 15)
 n = int(input("Digite um numero de 0 a 5:"))
 print("-=-" * 15)
 print("PROCESSANDO...")
-sleep(2)
+sleep(0)
 
 print(f"Voce digitou {n}, o Computador pois {r}")
 if n == r:

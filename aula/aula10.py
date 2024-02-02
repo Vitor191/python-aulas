@@ -1,9 +1,9 @@
-# nome = str(input("Qual e o seu nome?"))
-# if nome == "Vitor":
-#     print("Que nome lindo voce tem")
+# nome_lista = str(input("Qual e o seu nome_lista?"))
+# if nome_lista == "Vitor":
+#     print("Que nome_lista lindo voce tem")
 # else:
-#     print("Seu nome e tao normal")
-# print(f"Bom dia {nome}")
+#     print("Seu nome_lista e tao normal")
+# print(f"Bom dia {nome_lista}")
 
 n1 = float(input("Digite a primeira nota:"))
 n2 = float(input("Digite a segunda nota:"))

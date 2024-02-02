@@ -3,13 +3,13 @@
 # lista = ["Pedra", "Papel", "Tesoura"]
 # a = choice(lista)
 # print(a)
-# b = int(input("Escolha:\n1 para Pedra.\n2 para Papel\n3 para Tesoura\n:"))
+# nome_bara = int(input("Escolha:\n1 para Pedra.\n2 para Papel\n3 para Tesoura\n:"))
 #
-# if b == 1:
+# if nome_bara == 1:
 #     c = "Pedra"
-# elif b == 2:
+# elif nome_bara == 2:
 #     c = "Papel"
-# elif b == 3:
+# elif nome_bara == 3:
 #     c = "Tesoura"
 # if c == a:
 #     print("Empate")
