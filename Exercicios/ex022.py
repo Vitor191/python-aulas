@@ -8,11 +8,14 @@
 
 # Correcao do professor
 
-nome = str(input("Digite seu nome_lista completo: "))
-print("Analisando seu nome_lista...")
-print("Seu nome_lista em maiusculo e {}".format(nome.upper()))
-print("Seu nome_lista em minusculas e {}".format(nome.lower()))
-print("Seu nome_lista tem {} letras".format(len(nome) - nome.count(" ")))
-# print("Seu primeiro nome_lista tem {} letras".format(nome_lista.find(" ")))
+nome = str(input("Digite seu nome completo: "))
+print("Analisando seu nome...")
+print("Seu nome em maiusculo e {}".format(nome.upper()))
+print("Seu nome em minusculas e {}".format(nome.lower()))
+print("Seu nome tem {} letras".format(len(nome) - nome.count(" ")))
+print("Seu primeiro nome_lista tem {} letras".format(nome.find(" ")))
 separa = nome.split()
-print(f"Seu primeiro nome_lista e {separa[0]} e ele possui {len(separa[0])} letras")
+primeiro_nome = separa[0]
+print(f"Seu primeiro nome e {separa[0]} e ele possui {len(separa[0])} letras")
+for a in primeiro_nome:
+    print(a)
