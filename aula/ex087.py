@@ -6,14 +6,14 @@ for a in range(3):
         linha.append(int(input(f"Digiteo numero na posicao [{a}],[{b}]:")))
     lista.append(linha[:])
     linha.clear()
-for a in lista:
-    print(a)
-for linha in lista:
-    for a in range(3):
-        if linha[a] % 2 == 0:
-            soma += linha[a]
-        if a == 2:
-            soma3 += linha[a]
+for a in range(3):
+    for b in range(3):
+        print(f"[{lista[a][b]:^5}]", end=" ")
+        if lista[a][b] % 2 == 0:
+            soma += lista[a][b]
+        if b == 2:
+            soma3 += lista[a][2]
+    print()
 mai = max(lista[1])
 print(f"A soma dos valores pares e {soma}")
 print(f"A soma dos valores na terceira coluna e {soma3}")

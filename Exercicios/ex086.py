@@ -1,10 +1,12 @@
 lista = []
 linha = []
 soma = soma3 = b = mai = 0
-for a in range(3):
-    for b in range(3):
-        linha.append(int(input(f"Digiteo numero na posicao [{a}],[{b}]:")))
-    lista.append(linha[:])
-    linha.clear()
-for a in lista:
-    print(a)
+lista = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+soma = soma3 = b = mai = 0
+for c in range(3):
+    for l in range(3):
+        lista[l][c] = int(input(f"Digiteo numero na posicao [{l}],[{c}]:"))
+for c in range(3):
+    for l in range(3):
+        print(f"[{lista[l][c]:^5}]", end="")
+    print()

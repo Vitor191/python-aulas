@@ -1,4 +1,4 @@
-expr = str(input("Digite a expressao: "))
+expr = str(input("Digite b expressao: "))
 pilha = []
 for simb in expr:
     if simb == "(":

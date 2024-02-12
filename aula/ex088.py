@@ -13,5 +13,4 @@ for b in range(n):
     print(f"Jogo {b+1}:{c}")
     c.clear()
     sleep(1)
-print("=" * 40)
-print("Boa sorte".center(40))
+print(" Boa sorte ".center(40, "="))

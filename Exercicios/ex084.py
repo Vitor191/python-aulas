@@ -2,7 +2,7 @@ pessoa = []
 pessoa_pesada = []
 pessoa_leve = []
 dado = []
-mai = men = b = 0
+mai = men = 0
 while True:
     dado.append(str(input("Nome:")))
     while True:
@@ -10,12 +10,13 @@ while True:
         if peso.isdigit():
             peso = int(peso)
             dado.append(peso)
-            if peso < men or b == 0:
+            if len(pessoa) == 0:
+                men = mai = peso
+            elif peso < men:
                 men = peso
-            if peso > mai or b == 0:
+            elif peso > mai:
                 mai = peso
-                b = 1
-            break
+        break
     pessoa.append(dado[:])
     dado.clear()
     a = str(input("Deseja continuar?[S/N]"))
