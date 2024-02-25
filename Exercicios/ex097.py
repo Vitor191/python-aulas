@@ -1,5 +1,5 @@
 def titulo(msg):
-    a = len(msg) + 2
+    a = len(msg) + 4
     for _ in range(a):
         print("~", end="")
     print()
