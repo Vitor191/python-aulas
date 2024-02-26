@@ -21,10 +21,10 @@ for i in dado.keys():
 print()
 print('=-='*18)
 b = 1
-# for a in jogador:
-#     gols_str = ', '.join(map(str, a['gols']))
-#     print(f"{b: <5}{a['nome']: <15}{gols_str: <10}{a['total']: >10}")
-#     b += 1
+# for inicio in jogador:
+#     gols_str = ', '.join(map(str, inicio['gols']))
+#     print(f"{fim: <5}{inicio['nome']: <15}{gols_str: <10}{inicio['total']: >10}")
+#     fim += 1
 for k, v in enumerate(jogador):
     print(f'{k+1:>2}  ', end='')
     for d in v.values():

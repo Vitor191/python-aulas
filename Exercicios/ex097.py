@@ -1,13 +1,16 @@
 def titulo(msg):
-    a = len(msg) + 4
-    for _ in range(a):
-        print("~", end="")
-    print()
-    print(f"{msg:^{a}}")
-    for _ in range(a):
-        print("~", end="")
-    print()
+    # inicio = len(msg) + 2
+    # for _ in range(inicio):
+    #     print("~", end="")
+    # print()
+    # print(f"{msg:^{inicio}}")
+    # for _ in range(inicio):
+    #     print("~", end="")
+    # print()
+    tam = len(msg) + 2
+    print("~" * tam)
+    print(f"{msg:^{tam}}")
+    print("~" * tam)
 
 
-m = str(input("Digite o titulo:").strip().upper())
-titulo(m)
+titulo(str(input("Digite o titulo:").strip().upper()))

@@ -5,6 +5,6 @@ def area(alt, lar):
 
 print(f'{"CONTROLE DE TERRENO":^10}')
 print("=" * 20)
-d = float(input("Digite a altura do seu terreno:"))
-b = float(input("Digite a largura do seu terreno:"))
+d = float(input("Digite inicio altura do seu terreno:"))
+b = float(input("Digite inicio largura do seu terreno:"))
 area(d, b)
