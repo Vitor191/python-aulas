@@ -7,17 +7,17 @@ total = n
 ced = 50
 totced = 0
 # while True:
-#     if n >= 50:
-#         cin = n / 50
-#         n = n % 50
-#     elif n >= 20:
-#         vin = n / 20
-#         n = n % 20
-#     elif n >= 10:
-#         dez = n / 10
-#         n = n % 10
-#     elif n < 10:
-#         um = n
+#     if nome >= 50:
+#         cin = nome / 50
+#         nome = nome % 50
+#     elif nome >= 20:
+#         vin = nome / 20
+#         nome = nome % 20
+#     elif nome >= 10:
+#         dez = nome / 10
+#         nome = nome % 10
+#     elif nome < 10:
+#         um = nome
 #         break
 # print(f"Total de {int(cin)} cedulas de R$50")
 # print(f"Total de {int(vin)} cedulas de R$20")

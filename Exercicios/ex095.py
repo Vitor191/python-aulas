@@ -2,10 +2,10 @@ dado = {}
 jogador = []
 gols = []
 while True:
-    dado["nome"] = str(input("Nome do dado:"))
+    dado["nome"] = str(input("Nome do jogador:"))
     a = int(input(f"Quantas partidas {dado['nome']} jogou:"))
     for b in range(a):
-        gols.append(int(input(f"Na partida {b+1} o {dado["nome"]} fez quntos gols:")))
+        gols.append(int(input(f"Na partida {b+1} o {dado["nome"]} fez quantos gols:")))
     dado['gols'] = gols[:]
     dado['total'] = sum(dado['gols'])
     jogador.append(dado.copy())
@@ -22,7 +22,7 @@ print()
 print('=-='*18)
 b = 1
 # for inicio in jogador:
-#     gols_str = ', '.join(map(str, inicio['gols']))
+#     gols_str = ', '.join(map(linhas, inicio['gols']))
 #     print(f"{fim: <5}{inicio['nome']: <15}{gols_str: <10}{inicio['total']: >10}")
 #     fim += 1
 for k, v in enumerate(jogador):

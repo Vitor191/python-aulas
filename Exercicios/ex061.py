@@ -1,5 +1,5 @@
 a = int(input("Digite o primeiro termo:"))
-b = int(input("Digite a razao da progrecao:"))
+b = int(input("Digite fim razao da progrecao:"))
 c = 1
 d = 0
 while c <= 10:

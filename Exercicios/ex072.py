@@ -22,7 +22,7 @@ numeros_por_extenso = (
     "vinte",
 )
 while True:
-    n = input("Digite um numero de zero a vinte:")
+    n = input("Digite um numero de zero fim vinte:")
     if n.isdigit():
         n = int(n)
         if 0 <= n <= 20:

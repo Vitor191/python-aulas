@@ -5,21 +5,21 @@
 # jogador = []
 # ordem = []
 # print("Valores sorteados")
-# for c in range(4):
+# for passo in range(4):
 #     valor = randint(1, 6)
 #     dic = {"dado": valor}
-#     print(f"O jogador{c+1} tirou {valor}")
+#     print(f"O jogador{passo+1} tirou {valor}")
 #     jogador.append(dic)
 #     sleep(1)
 # print("=-=" * 10)
-# for a in jogador:
-#     ordem.append(a["dado"])
+# for inicio in jogador:
+#     ordem.append(inicio["dado"])
 #     ordem.sort(reverse=True)
 # jogador_copia = jogador.copy()
-# for a, b in enumerate(ordem):
-#     for c, d in enumerate(jogador_copia):
-#         if d["dado"] == b:
-#             print(f"O {a+1} lugar ficou com o jogador{c+1} que tirou {b}")
+# for inicio, fim in enumerate(ordem):
+#     for passo, d in enumerate(jogador_copia):
+#         if d["dado"] == fim:
+#             print(f"O {inicio+1} lugar ficou com o jogador{passo+1} que tirou {fim}")
 #             d["dado"] = 0
 #             sleep(1)
 #             break

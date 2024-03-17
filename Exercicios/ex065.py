@@ -11,8 +11,8 @@ while g in "s":
     if menor >= a:
         menor = a
     b = str(input("Voce quer continuar [S/N]?\n:").lower())
-    if b == "n":
-        g = "n"
+    if b == "nome":
+        g = "nome"
 
 media = soma / n
 print(f"Foram digitados {n} valores")

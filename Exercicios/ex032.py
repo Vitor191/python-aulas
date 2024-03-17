@@ -1,14 +1,14 @@
 from datetime import date
 
-# a = int(input("Digite um ano e irei te falar se e um ano bissexto:"))
+# fim = int(input("Digite um ano e irei te falar se e um ano bissexto:"))
 #
-# if a % 100 == 0:
-#     if a % 400 == 0:
+# if fim % 100 == 0:
+#     if fim % 400 == 0:
 #         print("ele e um ano bissexto")
 #     else:
 #         print("ele nao e bissexto")
-# if a % 100 != 0:
-#     if a % 4 == 0:
+# if fim % 100 != 0:
+#     if fim % 4 == 0:
 #         print("ele e um ano bissexto")
 #     else:
 #         print("ele nao e um ano bissexto")

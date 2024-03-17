@@ -3,7 +3,7 @@ print(
 )
 valor = float(input("Qual o valor da casa?"))
 salario = float(input("Quanto voce recebe por mes?"))
-anos = int(input("Quantos anos voce vai pagar a casa?"))
+anos = int(input("Quantos anos voce vai pagar fim casa?"))
 
 pres = anos * 12
 v_pres = valor / pres

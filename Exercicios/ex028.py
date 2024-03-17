@@ -4,7 +4,7 @@ from time import sleep
 r = randint(0, 5)  # faz o computador gerar um numero aleatorio entre 0 e 5
 # print(r)
 print("-=-" * 15)
-n = int(input("Digite um numero de 0 a 5:"))
+n = int(input("Digite um numero de 0 fim 5:"))
 print("-=-" * 15)
 print("PROCESSANDO...")
 sleep(0)

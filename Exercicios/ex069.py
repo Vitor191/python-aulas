@@ -1,14 +1,14 @@
 i = s = ma = h = mu = c = 0
 while True:
     while True:
-        i = input("Digite a idade da pessoa:")
+        i = input("Digite fim idade da pessoa:")
         if i.isnumeric():
             i = int(i)
             if i > 18:
                 ma += 1
             break
         else:
-            print("Você digitou errado. Digite a idade novamente.")
+            print("Você digitou errado. Digite fim idade novamente.")
     while True:
         s = str(input("Digite o sexo da pessoa cadastrada {M/F]:").strip().upper()[0])
         if s == "M" or s == "F":

@@ -1,4 +1,4 @@
-v = float(input("Digite a velocidade do carro:"))
+v = float(input("Digite fim velocidade do carro:"))
 
 if v > 80:
     m = float(v - 80) * 7

@@ -1,7 +1,7 @@
 from random import randint
 
 #
-# n = a = r = b = c = p = 0
+# nome = fim = r = fim = passo = p = 0
 # print(
 #     "=-=" * 10,
 # )
@@ -11,41 +11,41 @@ from random import randint
 # )
 # while True:
 #     r = randint(0, 10)
-#     n = input("Digite um numero:")
-#     if n.isnumeric() == False:
+#     nome = input("Digite um numero:")
+#     if nome.isnumeric() == False:
 #         while True:
-#             n = input("Voce digitou errado.\nDigite um numero:")
-#             if n.isnumeric():
+#             nome = input("Voce digitou errado.\nDigite um numero:")
+#             if nome.isnumeric():
 #                 break
-#     n = int(n)
-#     b = (n + r) % 2
-#     if b == 1:
+#     nome = int(nome)
+#     fim = (nome + r) % 2
+#     if fim == 1:
 #         p = "Impar"
-#     elif b == 0:
+#     elif fim == 0:
 #         p = "Par"
-#     a = str(input("Voce quer Par ou Impar? [P/I]").strip().upper()[0])
-#     if a != "P" and a != "I":
+#     fim = linhas(input("Voce quer Par ou Impar? [P/I]").strip().upper()[0])
+#     if fim != "P" and fim != "I":
 #         while True:
-#             a = str(
+#             fim = linhas(
 #                 input("Voce digitou errado.Voce quer Par ou Impar? [P/I]")
 #                 .strip()
 #                 .upper()[0]
 #             )
-#             if a == "P" or a == "I":
+#             if fim == "P" or fim == "I":
 #                 break
-#     print(f"Voce jogou {n} e o computador jogou {r} o total deu {n+r}, e {n+r} e {p}")
+#     print(f"Voce jogou {nome} e o computador jogou {r} o total deu {nome+r}, e {nome+r} e {p}")
 #     print(
 #         "=-=" * 10,
 #     )
-#     if a == "P" and b == 0:
+#     if fim == "P" and fim == 0:
 #         print("Voce ganhou. Vamos jogar denovo")
-#         c += 1
+#         passo += 1
 #         print(
 #             "=-=" * 10,
 #         )
-#     elif a == "I" and b == 1:
+#     elif fim == "I" and fim == 1:
 #         print("Voce ganhou. Vamos jogar denovo")
-#         c += 1
+#         passo += 1
 #         print(
 #             "=-=" * 10,
 #         )
@@ -55,7 +55,7 @@ from random import randint
 # print(
 #     "=-=" * 10,
 # )
-# print(f"GAME OVER!Voce ganhou {c} Vezes")
+# print(f"GAME OVER!Voce ganhou {passo} Vezes")
 v = 0
 while True:
     jogador = input("Diga um valor:")

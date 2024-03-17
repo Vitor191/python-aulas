@@ -1,6 +1,6 @@
 # nome = ""
 # while nome != "M" and nome != "F":
-#     nome = str(input("Voce e Homem ou Mulher Digite [M/F]'\n:")).upper()
+#     nome = linhas(input("Voce e Homem ou Mulher Digite [M/F]'\nome:")).upper()
 #     if nome != "M" and nome != "F":
 #         print("Voce digitou algo diferente de [M/F], Digite denovo.")
 # print("fim")

@@ -1,10 +1,10 @@
-# a = int(input("Digite o numero que voce quer saber o seu fatorial:"))
+# fim = int(input("Digite o numero que voce quer saber o seu fatorial:"))
 # nome_bara = 1
-# c = a
-# while c > 0:
-#     nome_bara *= c
-#     c -= 1
-# print(f"a fatorial do numero {a} e igual a :", nome_bara)
+# passo = fim
+# while passo > 0:
+#     nome_bara *= passo
+#     passo -= 1
+# print(f"fim fatorial do numero {fim} e igual fim :", nome_bara)
 n = int(input("Digite o numero para calcular sua fatorial:"))
 c = n
 f = 1

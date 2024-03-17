@@ -1,17 +1,19 @@
-from datetime import datetime
-
-
 def voto(nasc=0):
+    from datetime import date
+
+    global a, b
+    atual = date.today().year
+    a = atual - nasc
+
     if a < 16:
-        return "NEGADO"
+        b = "NAO VOTA"
     elif 16 >= a < 18 or a >= 65:
-        return "OPCIONAL"
+        b = "VOTO OPCIONAL"
+
     else:
-        return "OBIGATORIO"
+        b = "VOTO OBIGATORIO"
 
 
-b = int(input("Em que ano voce nasceu:"))
-atual = datetime
-data = atual.today().year
-a = data - b
-print(f"Com {a} anos: VOTO {voto(a)} ")
+a = b = 0
+voto(int(input("Em que ano voce nasceu:")))
+print(f"Com {a} anos : {b}")

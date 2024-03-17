@@ -1,5 +1,6 @@
 from time import sleep
 
+
 c = (
     "\033[0m",  # 0 sem cor
     "\033[91m",  # 1 cor vermelha

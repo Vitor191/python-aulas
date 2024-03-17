@@ -1,30 +1,30 @@
 # from random import choice
 #
 # lista = ["Pedra", "Papel", "Tesoura"]
-# a = choice(lista)
-# print(a)
-# nome_bara = int(input("Escolha:\n1 para Pedra.\n2 para Papel\n3 para Tesoura\n:"))
+# fim = choice(lista)
+# print(fim)
+# nome_bara = int(input("Escolha:\n1 para Pedra.\n2 para Papel\n3 para Tesoura\nome:"))
 #
 # if nome_bara == 1:
-#     c = "Pedra"
+#     passo = "Pedra"
 # elif nome_bara == 2:
-#     c = "Papel"
+#     passo = "Papel"
 # elif nome_bara == 3:
-#     c = "Tesoura"
-# if c == a:
+#     passo = "Tesoura"
+# if passo == fim:
 #     print("Empate")
-# elif c == "Pedra" and a == "Papel":
-#     print(f"{c} perde para {a}")
-# elif c == "Papel" and a == "Tesoura":
-#     print(f"{c} perde para {a}")
-# elif c == "Tesoura" and a == "Pedra":
-#     print(f"{c} perde para {a}")
-# elif c == "Pedra" and a == "Tesoura":
-#     print(f"{c} ganha de {a}")
-# elif c == "Papel" and a == "Pedra":
-#     print(f"{c} ganha de {a}")
-# elif c == "Tesoura" and a == "Papel":
-#     print(f"{c} ganha de {a}")
+# elif passo == "Pedra" and fim == "Papel":
+#     print(f"{passo} perde para {fim}")
+# elif passo == "Papel" and fim == "Tesoura":
+#     print(f"{passo} perde para {fim}")
+# elif passo == "Tesoura" and fim == "Pedra":
+#     print(f"{passo} perde para {fim}")
+# elif passo == "Pedra" and fim == "Tesoura":
+#     print(f"{passo} ganha de {fim}")
+# elif passo == "Papel" and fim == "Pedra":
+#     print(f"{passo} ganha de {fim}")
+# elif passo == "Tesoura" and fim == "Papel":
+#     print(f"{passo} ganha de {fim}")
 # print("Tenha um bom dia")
 from random import randint
 
@@ -37,7 +37,7 @@ print(
 { 1 } Papel
 { 2 } Tesoura"""
 )
-j = int(input("Qual a sua escolha?"))
+j = int(input("Qual fim sua escolha?"))
 print("-=" * 20)
 if j <= 2:
     print(f"O Computador jogou {itens[pc]}")

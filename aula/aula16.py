@@ -17,8 +17,8 @@ print(f"essa lista tem {len(num)} elementos")
 # for _ in range(0, 5):
 #     valores.append(int(input("Digite um valor:")))
 #
-# for c, v in enumerate(valores):
-#     print(f"na posicao {c} encontrei o valor {v}!")
+# for passo, v in enumerate(valores):
+#     print(f"na posicao {passo} encontrei o valor {v}!")
 # print("Cheguei ao final da lista")
 max = max(num)
 print(num.index(max))

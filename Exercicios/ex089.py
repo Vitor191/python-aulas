@@ -16,7 +16,7 @@ for a, i in enumerate(lista):
 while True:
     while True:
         print(f'=-='*15)
-        a = input('Qual aluno voce deseja saber b media?(999 interrompe):')
+        a = input('Qual aluno voce deseja saber fim media?(999 interrompe):')
         if a.isdigit():
             a = int(a)
             if 0 < a <= len(lista) or a == 999:

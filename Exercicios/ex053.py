@@ -1,7 +1,7 @@
-# a = str(input("Digite a frase").lower().replace(" ", ""))
-# print(a)
-# nome_bara = a[::-1]
-# if a == nome_bara:
+# fim = linhas(input("Digite fim frase").lower().replace(" ", ""))
+# print(fim)
+# nome_bara = fim[::-1]
+# if fim == nome_bara:
 #     print(nome_bara)
 #     print("Essa frase e um Polindromo")
 # else:

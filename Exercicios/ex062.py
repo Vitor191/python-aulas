@@ -1,7 +1,7 @@
 from time import sleep
 
-a = int(input("Digite o numero que voce quer saber a progrecao:"))
-b = int(input("Digite a razao da progrecao:"))
+a = int(input("Digite o numero que voce quer saber fim progrecao:"))
+b = int(input("Digite fim razao da progrecao:"))
 c = 0
 d = 10
 e = 0
@@ -29,7 +29,7 @@ Digite:
         )
         if f == 1:
             g = int(
-                input("Digite mais quantos termos voce gostaria de ver a frente?\n:")
+                input("Digite mais quantos termos voce gostaria de ver fim frente?\n:")
             )
             print("-=" * 20)
             sleep(2)

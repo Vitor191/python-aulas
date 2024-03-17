@@ -7,10 +7,11 @@ a = cont = soma = 0
 while True:
     dado["nome"] = str(input("Nome:"))
     while True:
-        a = str(input("Sexo: [M/F]")).strip().upper()
+        a = str(input("Sexo: [M/F]")).strip().upper()[0]
         if a in "MF":
             dado["sexo"] = a
             break
+        print("ERRO!! Dijite apenas M ou F")
     while True:
         a = input("Idade:")
         if a.isdigit():
@@ -19,9 +20,11 @@ while True:
             dado["idade"] = a
             break
     pessoa.append(dado.copy())
-    a = str(input("QUER CONTINUAR:[S/N]")).strip().upper()
+    a = str(input("QUER CONTINUAR:[S/N]")).strip().upper()[0]
     if a in "N":
         break
+    elif a not in "SN":
+        print("ERRO!! Dijite apenas S ou N")
 print("=-=" * 20)
 med = int(soma / len(pessoa))
 print(f"Foram cadastrados {len(pessoa)} pessoas")

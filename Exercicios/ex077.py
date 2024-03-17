@@ -24,7 +24,7 @@ palavras = (
 )
 print("As palavras sao:")
 print("=" * 30)
-# for a in range(len(palavras)):
+# for fim in range(len(palavras)):
 for a in palavras:
     print(f"\nNa palavra {a.upper()} tem as vogais: ", end="")
     for b in a:
